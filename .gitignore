@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+*.zip
+*.tar
+*.tar.gz
+
+# результаты расчётов не хранятся в репозитории: итог, по которому построена статья, лежит в data/
+results/*
+!results/article/
+results/article/*
+!results/article/fig1_fields.png
+!results/article/fig2_front.png
+!results/article/fig3_levels.png
+!results/article/fig4_bestmap.png
+!results/article/table*.csv
+!results/article/report.md
+!results/article/numbers.csv
